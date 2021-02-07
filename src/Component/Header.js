@@ -1,9 +1,9 @@
-import background from "./../asset/starist_logo.png";
+import logo from "./../asset/starist_logo.png";
 
 const Header = () => {
   return (
     <header className="header-wrp">
-      <img src={background} className="logo" alt="logo" />
+      <img src={logo} className="logo" alt="logo" />
     </header>
   );
 };

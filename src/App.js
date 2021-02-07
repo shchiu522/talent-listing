@@ -1,11 +1,14 @@
-// import logo from "./logo.svg";
-import "./App.css";
+import "./App.scss";
+// import "./style.scss";
 import Header from "./Component/Header";
+// import LeftNav from "./Component/LeftNav";
+import Listing from "./Component/Listing";
 
 function App() {
   return (
-    <div className="App">
-      <Header></Header>
+    <div className="site-wrapper">
+      <Header />
+      <Listing />
     </div>
   );
 }
