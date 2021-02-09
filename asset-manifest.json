@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/talent-listing/static/css/main.c98261ba.chunk.css",
+    "main.js": "/talent-listing/static/js/main.4a9157b5.chunk.js",
+    "main.js.map": "/talent-listing/static/js/main.4a9157b5.chunk.js.map",
+    "runtime-main.js": "/talent-listing/static/js/runtime-main.9ff264df.js",
+    "runtime-main.js.map": "/talent-listing/static/js/runtime-main.9ff264df.js.map",
+    "static/js/2.b2607ae0.chunk.js": "/talent-listing/static/js/2.b2607ae0.chunk.js",
+    "static/js/2.b2607ae0.chunk.js.map": "/talent-listing/static/js/2.b2607ae0.chunk.js.map",
+    "static/js/3.850c0963.chunk.js": "/talent-listing/static/js/3.850c0963.chunk.js",
+    "static/js/3.850c0963.chunk.js.map": "/talent-listing/static/js/3.850c0963.chunk.js.map",
+    "index.html": "/talent-listing/index.html",
+    "static/css/main.c98261ba.chunk.css.map": "/talent-listing/static/css/main.c98261ba.chunk.css.map",
+    "static/js/2.b2607ae0.chunk.js.LICENSE.txt": "/talent-listing/static/js/2.b2607ae0.chunk.js.LICENSE.txt",
+    "static/media/AibaAina_VoiceSample.mp3": "/talent-listing/static/media/AibaAina_VoiceSample.c49af45b.mp3",
+    "static/media/starist_logo.02a85432.png": "/talent-listing/static/media/starist_logo.02a85432.png",
+    "static/media/相羽あいなHP用-.be361c45.jpg": "/talent-listing/static/media/相羽あいなHP用-.be361c45.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9ff264df.js",
+    "static/js/2.b2607ae0.chunk.js",
+    "static/css/main.c98261ba.chunk.css",
+    "static/js/main.4a9157b5.chunk.js"
+  ]
+}
