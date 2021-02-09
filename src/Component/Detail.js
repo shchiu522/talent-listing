@@ -17,10 +17,6 @@ const TalentItem = () => {
             sizes="(max-width: 1032px) 100vw, 1032px"
           ></img>
         </figure>
-        <div class="st-list_desc">
-          <p class="st-list_name">相羽 あいな </p>
-          <p class="st-list_rome">Aina Aiba </p>
-        </div>
       </a>
     </li>
   );
@@ -35,7 +31,7 @@ function TopDesc() {
       <div class="profile">
         <table>
           <tbody>
-            <tr>
+            {/* <tr>
               <th>誕生日</th>
               <td>10月17日 </td>
             </tr>
@@ -50,7 +46,7 @@ function TopDesc() {
             <tr>
               <th>趣味</th>
               <td>プロレス、サラブレッド鑑賞（競走馬） </td>
-            </tr>
+            </tr> */}
             <tr>
               <th>ツイッター</th>
               <td>
@@ -69,24 +65,74 @@ function TopDesc() {
             </tr>
           </tbody>
         </table>
-        <audio controls src={require('./../asset/AibaAina_VoiceSample.mp3').default}>
-            Your browser does not support the
-            <code>audio</code> element.
-          </audio>
-
+        <audio
+          controls
+          src={require("./../asset/AibaAina_VoiceSample.mp3").default}
+        >
+          Your browser does not support the
+          <code>audio</code> element.
+        </audio>
       </div>
     </div>
   );
 }
+
+const socialMediaList = () => {
+  return (
+    <ul>
+      <li>
+        <a class="facebook" href="#">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter" href="#">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li>
+        <a class="instagram" href="#">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google" href="#">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <i class="fa fa-google-plus" aria-hidden="true"></i>
+        </a>
+      </li>
+    </ul>
+  );
+};
 const Detail = () => {
   return (
     <>
-      <div class="st-list_container st-list_container-f">
-        <a href="#">BACK</a>
-        <div class="st-detail_container">
-          <TalentItem />
-          <TopDesc />
+      <div class="st-detail_container">
+      <div class="arrow-btn back-wrap">
+        <div class="arrow-btn-li">
+          <span class="arrow arrow-left"></span>
         </div>
+        <span>BACK</span>
+      </div>
+
+        {/* <a href="#">BACK</a> */}
+        <TalentItem />
+        <TopDesc />
       </div>
     </>
   );
