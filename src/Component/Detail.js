@@ -21,59 +21,57 @@ const TalentItem = () => {
     </li>
   );
 };
+
+function SocialMediaList() {
+  return (
+    <div className="social-media-list">
+      <ul>
+        <li>
+          <a href="#">
+            <span></span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span></span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span></span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  );
+}
+
 function TopDesc() {
   return (
-    <div class="st-detail_top_desc">
-      <div class="name-wrapper">
-        <h1 class="name">相羽 あいな </h1>
-        <p class="rome">Aina Aiba </p>
+    <>
+      <div class="st-detail_top_desc">
+        <div class="name-wrapper">
+          <h1 class="name">相羽 あいな </h1>
+          <p class="rome">Aina Aiba </p>
+        </div>
+        <div class="profile">
+          <SocialMediaList />
+
+          <audio
+            controls
+            src={require("./../asset/AibaAina_VoiceSample.mp3").default}
+          >
+            Your browser does not support the
+            <code>audio</code> element.
+          </audio>
+        </div>
       </div>
-      <div class="profile">
-        <table>
-          <tbody>
-            {/* <tr>
-              <th>誕生日</th>
-              <td>10月17日 </td>
-            </tr>
-            <tr>
-              <th>血液型</th>
-              <td>O型 </td>
-            </tr>
-            <tr>
-              <th>特技</th>
-              <td>歌、トーク、リアクション </td>
-            </tr>
-            <tr>
-              <th>趣味</th>
-              <td>プロレス、サラブレッド鑑賞（競走馬） </td>
-            </tr> */}
-            <tr>
-              <th>ツイッター</th>
-              <td>
-                <a href="https://twitter.com/aibaaiai" target="_blank">
-                  https://twitter.com/aibaaiai
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <th>ブログ</th>
-              <td>
-                <a href="https://lineblog.me/aiba_aiai/" target="_blank">
-                  https://lineblog.me/aiba_aiai/
-                </a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <audio
-          controls
-          src={require("./../asset/AibaAina_VoiceSample.mp3").default}
-        >
-          Your browser does not support the
-          <code>audio</code> element.
-        </audio>
-      </div>
-    </div>
+    </>
   );
 }
 
@@ -119,16 +117,17 @@ const socialMediaList = () => {
     </ul>
   );
 };
-const Detail = () => {
+
+const Detail = (props) => {
   return (
     <>
       <div class="st-detail_container">
-      <div class="arrow-btn back-wrap">
-        <div class="arrow-btn-li">
-          <span class="arrow arrow-left"></span>
+        <div class="arrow-btn back-wrap" onClick={props.toggle}>
+          <div class="arrow-btn-wrp">
+            <span class="arrow arrow-left"></span>
+            <span class="arrow-text">BACK</span>
+          </div>
         </div>
-        <span>BACK</span>
-      </div>
 
         {/* <a href="#">BACK</a> */}
         <TalentItem />

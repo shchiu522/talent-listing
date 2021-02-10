@@ -1,8 +1,8 @@
 import image from "./../asset/相羽あいなHP用-.jpg";
 
-const TalentItem = () => {
+const TalentItem = (props) => {
   return (
-    <li>
+    <li onClick={props.toggle}>
       <a href="#">
         <figure class="st-list_thumb">
           <img
@@ -25,7 +25,7 @@ const TalentItem = () => {
   );
 };
 
-const Listing = () => {
+const Listing = (props) => {
   return (
     <>
       <h1 class="listing-title">TALENT PROFILE</h1>
@@ -42,12 +42,12 @@ const Listing = () => {
 
       <div class="st-list_container st-list_container-f">
         <ul>
-          <TalentItem />
-          <TalentItem />
-          <TalentItem />
-          <TalentItem />
-          <TalentItem />
-          <TalentItem />
+          <TalentItem toggle={props.toggle}/>
+          <TalentItem toggle={props.toggle}/>
+          <TalentItem toggle={props.toggle}/>
+          <TalentItem toggle={props.toggle}/>
+          <TalentItem toggle={props.toggle}/>
+          <TalentItem toggle={props.toggle}/>
         </ul>
       </div>
     </>
