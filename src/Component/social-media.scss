@@ -100,12 +100,12 @@
   }
   ul li:nth-child(3) a span::before,
   ul li:nth-child(3) a span::after {
-    content: "\f0d5";
+    content: "\f16d";
   }
-  ul li:nth-child(4) a span::before,
-  ul li:nth-child(4) a span::after {
-    content: "\f0e1";
-  }
+  // ul li:nth-child(4) a span::before,
+  // ul li:nth-child(4) a span::after {
+  //   content: "\f0e1";
+  // }
   ul li:nth-child(1) a span::after {
     background: #3b5999;
     color: #fff;

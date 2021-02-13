@@ -1,4 +1,5 @@
 import image from "./../asset/相羽あいなHP用-.jpg";
+import logo from "./../asset/starist_logo.png";
 
 const TalentItem = (props) => {
   return (
@@ -9,7 +10,7 @@ const TalentItem = (props) => {
             width="1032"
             height="1366"
             // src="https://s3-ap-northeast-1.amazonaws.com/hibiki-cast.jp/wp-content/uploads/2019/04/相羽あいなHP用-.jpg"
-            src={image}
+            src={logo}
             class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
             alt=""
             // srcset="https://hibiki-cast.jp/wp-content/uploads/2019/04/相羽あいなHP用-.jpg 1032w, https://hibiki-cast.jp/wp-content/uploads/2019/04/相羽あいなHP用--227x300.jpg 227w, https://hibiki-cast.jp/wp-content/uploads/2019/04/相羽あいなHP用--768x1017.jpg 768w, https://hibiki-cast.jp/wp-content/uploads/2019/04/相羽あいなHP用--774x1024.jpg 774w"
