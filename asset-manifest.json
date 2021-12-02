@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/talent-listing/static/css/main.cf9dc357.chunk.css",
-    "main.js": "/talent-listing/static/js/main.efb1099a.chunk.js",
-    "main.js.map": "/talent-listing/static/js/main.efb1099a.chunk.js.map",
+    "main.css": "/talent-listing/static/css/main.4a48a5ab.chunk.css",
+    "main.js": "/talent-listing/static/js/main.3942e06b.chunk.js",
+    "main.js.map": "/talent-listing/static/js/main.3942e06b.chunk.js.map",
     "runtime-main.js": "/talent-listing/static/js/runtime-main.fa0f91b9.js",
     "runtime-main.js.map": "/talent-listing/static/js/runtime-main.fa0f91b9.js.map",
     "static/js/2.1f5573c6.chunk.js": "/talent-listing/static/js/2.1f5573c6.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.b14ef626.chunk.js": "/talent-listing/static/js/3.b14ef626.chunk.js",
     "static/js/3.b14ef626.chunk.js.map": "/talent-listing/static/js/3.b14ef626.chunk.js.map",
     "index.html": "/talent-listing/index.html",
-    "static/css/main.cf9dc357.chunk.css.map": "/talent-listing/static/css/main.cf9dc357.chunk.css.map",
+    "static/css/main.4a48a5ab.chunk.css.map": "/talent-listing/static/css/main.4a48a5ab.chunk.css.map",
     "static/js/2.1f5573c6.chunk.js.LICENSE.txt": "/talent-listing/static/js/2.1f5573c6.chunk.js.LICENSE.txt",
     "static/media/AibaAina_VoiceSample.mp3": "/talent-listing/static/media/AibaAina_VoiceSample.c49af45b.mp3",
     "static/media/starist_logo.02a85432.png": "/talent-listing/static/media/starist_logo.02a85432.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.fa0f91b9.js",
     "static/js/2.1f5573c6.chunk.js",
-    "static/css/main.cf9dc357.chunk.css",
-    "static/js/main.efb1099a.chunk.js"
+    "static/css/main.4a48a5ab.chunk.css",
+    "static/js/main.3942e06b.chunk.js"
   ]
 }
