@@ -18,8 +18,8 @@ const TalentItem = (props) => {
           ></img>
         </figure>
         <div class="st-list_desc">
-          <p class="st-list_name">相羽 あいな </p>
-          <p class="st-list_rome">Aina Aiba </p>
+          <p class="st-list_name">Talent 1 </p>
+          {/* <p class="st-list_rome">Aina Aiba </p> */}
         </div>
       </a>
     </li>
@@ -35,7 +35,7 @@ const Listing = (props) => {
           <a href="#" class="btn effect04" data-sm-link-text="CLICK">
             <span>VOICE ACTOR</span>
           </a>
-          <a href="#" class="btn effect04" data-sm-link-text="CLICK">
+          <a href="#" class="btn effect04 actress" data-sm-link-text="CLICK">
             <span>VOICE ACTRESS</span>
           </a>
         </div>

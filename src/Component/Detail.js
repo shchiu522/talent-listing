@@ -56,19 +56,19 @@ function TopDesc() {
     <>
       <div class="st-detail_top_desc">
         <div class="name-wrapper">
-          <h1 class="name">相羽 あいな </h1>
-          <p class="rome">Aina Aiba </p>
+          <h1 class="name">Talent 1 </h1>
+          {/* <p class="rome">Aina Aiba </p> */}
         </div>
         <div class="profile">
           <SocialMediaList />
 
-          <audio
+          {/* <audio
             controls
             src={require("./../asset/AibaAina_VoiceSample.mp3").default}
           >
             Your browser does not support the
             <code>audio</code> element.
-          </audio>
+          </audio> */}
         </div>
       </div>
     </>
@@ -130,8 +130,16 @@ const Detail = (props) => {
         </div>
 
         {/* <a href="#">BACK</a> */}
-        <TalentItem />
+        {/* <TalentItem /> */}
         <TopDesc />
+        <audio
+            controls
+            src={require("./../asset/AibaAina_VoiceSample.mp3").default}
+          >
+            Your browser does not support the
+            <code>audio</code> element.
+          </audio>
+
       </div>
     </>
   );

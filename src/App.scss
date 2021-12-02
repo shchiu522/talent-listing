@@ -17,7 +17,7 @@ body {
 }
 
 .site-wrapper {
-  max-width: 1280px;
+  max-width: 1080px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -85,16 +85,18 @@ body {
   // justify-content: space-around;
   padding-bottom: 40px;
   ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    // flex-wrap: wrap;
+    // justify-content: space-around;
   }
   li {
     margin-top: 20px;
     margin-right: 20px;
     // width: 280px;
-    width: 25%;
-    height: 380px;
+    width: 100%;
+    height: 300px;
     // background-color: #000;
     float: left;
     overflow: hidden;
@@ -142,13 +144,15 @@ body {
       letter-spacing: 2px;
       color: #000;
       text-align: center;
-      font-family: -apple-system, BlinkMacSystemFont, YakuHanJP, 游ゴシック体,
-        YuGothic, "Yu Gothic M", "游ゴシック Medium", "Yu Gothic Medium",
-        "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN W3", HiraKakuProN-W3,
-        "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro",
-        "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック",
-        "MS PGothic", "Helvetica Neue", HelveticaNeue, Helvetica, Arial,
-        "Segoe UI", sans-serif;
+      // font-family: -apple-system, BlinkMacSystemFont, YakuHanJP, 游ゴシック体,
+      //   YuGothic, "Yu Gothic M", "游ゴシック Medium", "Yu Gothic Medium",
+      //   "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN W3", HiraKakuProN-W3,
+      //   "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro",
+      //   "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック",
+      //   "MS PGothic", "Helvetica Neue", HelveticaNeue, Helvetica, Arial,
+      //   "Segoe UI", sans-serif;
+      font-family: "Noto Sans JP", sans-serif;
+
     }
   }
   .st-list_name {
@@ -173,9 +177,11 @@ body {
   width: 80%;
   max-width: 1000px;
 
+  background-color: white;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   li {
     margin-top: 0;
     width: 40%;
@@ -238,6 +244,9 @@ body {
   position: relative;
   transition-duration: 0.4s;
   overflow: hidden;
+  &.actress {
+    border-color: rgba(255, 243, 247, 0.96);
+  }
 }
 
 .effect04::before,
@@ -279,7 +288,7 @@ body {
 
 .arrow-btn.back-wrap {
   margin: 0;
-  padding: 20px 0px;
+  padding: 20px 20px;
   width: 100%;
   cursor: pointer;
 }
@@ -291,7 +300,6 @@ body {
 //   margin: 40px;
 // }
 .arrow-btn-wrp {
-  display: flex;
   align-content: center;
   .arrow-text {
     margin: 0 5px;
@@ -301,8 +309,8 @@ body {
 /* arrow common style */
 .arrow {
   display: inline-block;
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
   border-top: 2px solid #000;
   border-right: 2px solid #000;
 }
@@ -336,4 +344,26 @@ body {
 }
 .arrow-bottom-right {
   transform: rotate(90deg) skew(-10deg, -10deg);
+}
+
+.custom-shape-divider-top-1638460199 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: -1;
+}
+
+.custom-shape-divider-top-1638460199 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 201px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1638460199 .shape-fill {
+  fill: #FCFAE9;
 }
